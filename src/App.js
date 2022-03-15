@@ -1,24 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+
+import './index.css';
+
+import LogoXbox from './assets/logo-xbox.svg'
+
+import XboxLogo from './assets/xbox.svg'
+
+import Sombra from './assets/luz-verde.svg'
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div className="container">
+
+      <section className="seçao" >
+        <img src={LogoXbox} alt="logo-xbox" />
+        <ul>
+          <li>visão geral</li>
+          <li>jogos</li>
+          <li>galeria</li>
+          <li>unbox</li>
+        </ul>
+        <button type="button">ver disponibilidade</button>
+      </section>
+
+      <div className="logoManete">
+      
+      <h1>Xbox series X</h1>
+      <p>pedido antecipado</p>
+      <img   src='' alt="logo"/>
+      <img  className="GmgPrincipal" src= {XboxLogo} alt="logo"/>
+
+      </div>
+
+
+
+
+
     </div>
+
   );
 }
 

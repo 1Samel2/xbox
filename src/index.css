@@ -1,13 +1,74 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.container {
+    background: black;
+    height: 100%;
+    
 }
+
+
+.seçao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 30px;
+
+}
+
+
+li {
+
+    display: inline;
+    margin: 48px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    list-style: none;
+
+}
+
+.secao,
+button {
+
+    background: #9BF00B;
+    width: 224px;
+    height: 60px;
+    border: none;
+
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #0C0C0C;
+}
+
+.logoManete {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 193px;
+    gap: 48px;
+    color: white;
+
+}
+
+.imgPrincipal{
+    width: 1235px;
+    height: 597px;
+}
+
