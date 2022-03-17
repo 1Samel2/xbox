@@ -3,14 +3,16 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    background-color: #0C0C0C;
+    
 
 }
 
 
 .container {
-    background: black;
+   
     height: 100%;
-    
+
 }
 
 
@@ -55,7 +57,7 @@ button {
     color: #0C0C0C;
 }
 
-.logoManete {
+.console {
 
     display: flex;
     justify-content: center;
@@ -67,8 +69,92 @@ button {
 
 }
 
-.imgPrincipal{
+.console h1 {
+
+
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 115%;
+
+}
+
+.console h2 {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #9BF00B;
+
+}
+
+
+
+
+
+
+.imgPrincipal {
     width: 1235px;
     height: 597px;
 }
 
+
+.sombra {
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(134, 207, 9, 0.258984) 20.31%, rgba(155, 240, 11, 0.3) 23.53%, rgba(0, 219, 0, 0.3) 35.42%, rgba(0, 123, 0, 0.3) 40.63%, rgba(0, 132, 0, 0.3) 49.51%);
+    opacity: 0.7;
+    border: 1px solid #000000;
+    filter: blur(250px);
+    position: absolute;
+    width: 1209px;
+    height: 482px;
+    
+
+}
+
+
+
+
+.testeDeTexto {
+
+    display: flex;
+    flex-direction: column; 
+   
+
+}
+
+
+.testeDeTexto h3 {
+
+    color: #9BF00B;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+}
+
+
+.testeDeTexto p {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 170%;
+    color: #C0C0C0;
+}
+
+.alinhamentoDeImg{
+
+    width: 500px;
+    height: 347.78px;
+    
+
+}

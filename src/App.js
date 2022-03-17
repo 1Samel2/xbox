@@ -6,7 +6,7 @@ import LogoXbox from './assets/logo-xbox.svg'
 
 import XboxLogo from './assets/xbox.svg'
 
-import Sombra from './assets/luz-verde.svg'
+import Controle from './assets/controle.svg'
 
 function App() {
 
@@ -14,25 +14,47 @@ function App() {
 
     <div className="container">
 
-      <section className="seçao" >
+
+      <aside className="seçao" >
+
         <img src={LogoXbox} alt="logo-xbox" />
+
         <ul>
           <li>visão geral</li>
           <li>jogos</li>
           <li>galeria</li>
           <li>unbox</li>
         </ul>
+
         <button type="button">ver disponibilidade</button>
-      </section>
 
-      <div className="logoManete">
-      
-      <h1>Xbox series X</h1>
-      <p>pedido antecipado</p>
-      <img   src='' alt="logo"/>
-      <img  className="GmgPrincipal" src= {XboxLogo} alt="logo"/>
+      </aside>
 
-      </div>
+      <header>
+
+        <div className="console">
+          <h1>Xbox series X</h1>
+          <h2>pedido antecipado</h2>
+          <div className="sombra"></div>
+          <img className="imgPrincipal" src={XboxLogo} alt="logo-xbox" />
+        </div>
+
+        <div className="testeDeTexto">
+          <h3>Desempenho aperfeiçoado</h3>
+          <p>O controle sem fio Xbox traz um design elegante,  conforto refinado e compartilhamento instantâneo para um favorito comum.</p>
+
+          <img className= "alinhamentoDeImg"   src={Controle} alt="logo-xbox" />
+
+        </div>
+
+      </header>
+
+
+      {/* <div className="Card">  */}
+
+
+
+
 
 
 
